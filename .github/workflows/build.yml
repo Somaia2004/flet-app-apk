@@ -38,7 +38,7 @@ jobs:
 
       - name: Build APK
         run: |
-          flet build apk --release --yes
+          flet build apk --yes
 
       - name: Find APK
         run: |
